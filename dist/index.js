@@ -23870,6 +23870,9 @@ async function getDeployment(args, retryInterval) {
       );
     await new Promise((resolve) => setTimeout(resolve, retryInterval));
   }
+
+  environment = environment.replace("https://", "");
+
   return environment;
 }
 

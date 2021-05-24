@@ -1,5 +1,8 @@
 # Get deployment URL
 
+Forked from <https://github.com/dorshinar/get-deployment-url>
+**Changes made:** remove `https://` from deployment url
+
 This action wait for a branch to be deployed, and outputs the deployment URL.
 
 ## Inputs
